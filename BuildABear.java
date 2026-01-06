@@ -38,4 +38,23 @@ public class BuildABear {
     }
 
     // 3. METHODS (behaviors/actions)
+
+    // ACCESSORS ("getters") return the value of an istance var.
+    public String getType() {
+        retrun type;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getFillLevel() {
+        return fillLevel;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+
 }
